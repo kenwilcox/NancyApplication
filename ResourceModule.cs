@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace NancyApplication
 {
     using Nancy;
@@ -9,7 +11,7 @@ namespace NancyApplication
         {
             // would capture routes to /products/list sent as a GET request
             Get["/list"] = parameters => {
-                return "The list of products";
+                return new List<string>() {"product 1", "product2"};
             };
         }
     }
