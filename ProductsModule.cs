@@ -1,8 +1,8 @@
 namespace NancyApplication
 {
     using Nancy;
-	
-	public class ProductsModule : NancyModule
+    
+    public class ProductsModule : NancyModule
     {
         public ProductsModule()
         {
