@@ -1,12 +1,12 @@
 namespace NancyApplication
 {
-    using Nancy;
+  using Nancy;
     
     public class HomeModule : NancyModule
     {
         public HomeModule()
         {
-            Get["/"] = _ => "Hello World or something!";
+          Get["/"] = _ => "Hello World or something!";
         }
     }
 }
